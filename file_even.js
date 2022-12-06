@@ -1,10 +1,12 @@
-function checeven(num){
-  let count = 0;
+function checkeven(num){
+  
   for(let i=1;i<=num;i++){
-    if(num % i ==0 ){
-  count++;
- }
-}if(count == 2){
+    if(i % 2 ==0 ){
+  
   console.log("Yes")
   }else{
 console.log("No")}
+  }
+}
+
+checkeven(13)
